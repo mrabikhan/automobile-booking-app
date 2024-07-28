@@ -1,0 +1,134 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.head2 
+{   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(187, 0, 0);
+}
+
+.head2 h1
+{ 
+margin-left: 6%;
+font-size: 30px;
+color:white;
+padding: 15px;   
+}
+
+.head2 p
+{
+background-color: black;
+font-size: 18px;
+color: red;
+text-align: center;
+padding: 15px;
+border: 1px solid red;
+}
+
+.head2 img
+{
+position: absolute; 
+width: 80px;
+height: 55px;
+padding: 2px;
+margin-left: 10px;
+margin-top: 3px;
+}
+
+.head2 img:hover
+{
+box-shadow: 1px 2px 4px 4px white;
+cursor: pointer;
+}
+.head2 h1:hover
+{
+    color: greenyellow;
+    cursor: pointer;
+}
+.regwall img
+{
+width: 1350px;
+height: 700px;
+}
+
+.container2
+{
+position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+border: 2px solid red;
+padding: 58px;
+background-color: black;
+opacity: 70%;
+color: white;
+border-radius: 5px;
+}
+.container2 h1
+{
+ margin-left: 15%;   
+}
+.container2 label
+{
+    display: inline-block;
+    text-align: center;
+    width:90px;
+    color: white;
+}
+.container2 input
+{
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    
+}
+
+.dob input
+{
+width: 60px;    
+}
+
+.submit
+{
+margin-left: 42%; 
+background-color: red;
+width: 100px;
+height: 25px;
+border-radius: 15px;
+border: none;
+color: white;
+}
+
+.submit:hover
+{
+background-color: darkblue;    
+}
+
+.button
+{
+margin-left: 20%;    
+width: 100px;
+height: 25px;
+border-radius: 5px;
+text-decoration: none;
+background-color: red;  
+border: none;  
+}
+
+.button:hover
+{
+background-color: darkblue;
+color: white;
+}
+
+.button a
+{
+    text-decoration: none;
+    color: white;
+}
+

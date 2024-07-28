@@ -1,0 +1,261 @@
+*
+{
+margin: 0%;
+padding: 0%;    
+
+}
+
+.nav
+{    
+background-color: rgb(233, 1, 1);    
+height: 55px;
+}
+
+.nav ul
+{
+display: flex;    
+list-style: none;  
+justify-content:center;
+}
+
+.nav ul li
+{    
+position: relative;    
+text-align: center;    
+padding: 14px;
+margin-top: 10px;
+left: 45px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+font-size: 16px;
+word-spacing: 2px;
+}
+
+.nav ul li a
+{    
+text-decoration: none;
+color: whitesmoke;    
+}
+
+.nav ul li a:hover
+{
+color: lime;
+}
+
+.logo
+{
+background-color: rgb(0, 0, 0);    
+height: 80px;
+border-bottom: 5px solid rgb(248, 9, 9);
+} 
+.logo img
+{
+position: relative;    
+width: 80px;
+height: 70px;
+margin-left: 10px;
+padding: 2px;
+} 
+
+.logo h1
+{
+position: absolute; 
+left: 130px;
+color: white;
+top:75px;
+font-size:30px;
+}
+.logo h1 span
+{
+color: red;    
+}
+
+.logo h3
+{
+position: absolute;    
+color:white;
+margin-left: 70%;
+border: 1px solid red;
+padding: 5px;
+margin-top: 20px;
+}
+.logo h3:hover
+{
+color:lime;
+border: 1px solid yellow;
+}
+
+.logo a button
+{
+position: absolute; 
+left: 88%;
+top: 12%;
+background-color:red;
+color:white;
+border: none;
+border-radius: 15px;
+width: 120px;
+height: 35px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.logo a button:hover
+{
+background-color: white;
+color: red;    
+box-shadow: 2px 2px 4px 2px lime;
+}
+
+.logo img:hover
+{
+box-shadow: 2px 2px 2px 4px lime;
+}
+
+.container img
+{
+width: 300px;
+height: 200px;
+margin: 5px;
+margin-top: 60px;
+margin-bottom: 50px;
+margin-left: 20px;
+}
+
+.container img:hover
+{
+width: 320px;
+height: 220px;
+border: 2px solid lime;   
+}
+
+.container h1
+{
+background-color:rgb(23, 23, 49);
+color: white;   
+padding: 30px;
+font-size: 40px;
+}
+
+.container button
+{ 
+position:absolute;
+left: 85%; 
+background-color: rgb(8, 185, 8);   
+color: white;
+font-weight: bolder;
+border: none;
+border-radius: 5px;
+padding: 13px;
+width: 125px;
+font-size: 16px;
+}
+
+.container button:hover
+{
+background-color: red;
+cursor: pointer;   
+}
+
+.box1 button
+{
+margin-top:-5.5%;
+}
+
+.box2 button
+{
+margin-top:-5.5%
+}
+
+.box3 button
+{
+margin-top:-5.5%;
+}
+
+.box4 button
+{
+margin-top:-5.5%;
+}
+
+.footer
+{  
+ 
+background-color: rgb(27, 27, 27); 
+height: 350px;
+width: 100%;   
+margin-top: 1%;
+color: white;
+font-family: "Poppins", sans-serif;
+}
+
+.footer h3
+{
+display: inline-flex;    
+border-bottom: 2px solid red;    
+padding: 8px;
+margin: 40px;
+width: 230px;
+}
+
+.footer p
+{
+display: inline-flex; 
+margin-left: 40px;
+font-size: 14px;
+}
+
+.footer p:nth-child(2)
+{
+margin-left: 120px;    
+}
+
+.footer p:nth-child(3)
+{
+margin-left: 140px;    
+}
+
+.footer p:nth-child(4)
+{
+margin-left: 160px;    
+}
+
+.footer p:hover
+{
+    color: #8c2586;        
+} 
+
+.copyright
+{
+color: rgb(190, 174, 174);  
+background-color: rgb(48, 42, 42);  
+font-family: "Poppins", sans-serif;
+height: 60px;
+
+}
+
+.copyright p
+{
+margin-left: 20px;   
+letter-spacing: 1px;
+padding: 20px;
+}
+
+.social 
+{
+position: fixed;
+top: 30%;
+left: 96.5%;
+}
+
+.item img
+{    
+width: 45px;
+height: 45px;
+border-radius: 10px;
+}
+
+.social img:hover
+{
+width: 40px;
+height: 38px; 
+}

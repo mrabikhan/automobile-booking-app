@@ -1,0 +1,13 @@
+body
+{
+    background-color:skyblue
+}
+
+.form
+{
+background-color:pink;
+padding: 120px;
+height: 300px;
+width: 300px;    
+border: 2px solid black;
+}

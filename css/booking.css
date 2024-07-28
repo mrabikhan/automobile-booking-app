@@ -1,0 +1,266 @@
+*
+{
+margin: 0%;
+padding: 0%;    
+}
+
+body
+{
+background-color: rgb(235, 220, 220);    
+}
+
+.nav
+{    
+background-color: rgb(233, 1, 1);    
+height: 55px;
+}
+
+.nav ul
+{
+display: flex;    
+list-style: none;  
+justify-content:center;
+}
+
+.nav ul li
+{    
+position: relative;    
+text-align: center;    
+padding: 14px;
+margin-top: 10px;
+left: 45px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+font-size: 16px;
+word-spacing: 2px;
+}
+
+.nav ul li a
+{    
+text-decoration: none;
+color: whitesmoke;    
+}
+
+.nav ul li a:hover
+{
+color: lime;
+}
+
+.logo
+{
+background-color: rgb(0, 0, 0);    
+height: 80px;
+border-bottom: 5px solid rgb(207, 196, 196);
+} 
+.logo img
+{
+position: relative;    
+width: 80px;
+height: 70px;
+margin-left: 10px;
+padding: 2px;
+} 
+
+.logo h1
+{
+position: absolute; 
+left: 130px;
+color: white;
+top:75px;
+font-size:30px;
+}
+.logo h1 span
+{
+color: red;    
+}
+
+.logo h3
+{
+position: absolute;    
+color:white;
+margin-left: 70%;
+border: 1px solid red;
+padding: 5px;
+margin-top: 20px;
+}
+.logo h3:hover
+{
+color:lime;
+border: 1px solid yellow;
+}
+
+.logo a button
+{
+position: absolute; 
+left: 88%;
+top: 12%;
+background-color:red;
+color:white;
+border: none;
+border-radius: 15px;
+width: 120px;
+height: 35px;
+font-size: 16px;
+font-weight: bold;
+}
+
+.logo a button:hover
+{
+background-color: white;
+color: red;    
+box-shadow: 2px 2px 4px 2px lime;
+}
+
+.logo img:hover
+{
+    box-shadow: 2px 2px 2px 4px lime;
+}
+
+.container
+{
+position: absolute;
+top: 80%;
+left: 50%;
+transform: translate(-50%,-50%);
+border: 2px solid red;
+padding: 25px;
+color: white;
+background-color: black;
+text-align: center;
+opacity: 80%;
+border-radius:10px; 
+}
+
+.container label
+{
+    display: inline-block;
+    text-align: center;
+    width:90px;    
+}
+
+.container input
+{
+text-align: center;
+border-radius:5px;   
+padding: 5px;
+}
+
+.container select
+{
+border-radius: 5px;
+text-align: center;    
+padding: 5px;
+}
+
+.container button
+{
+background-color: red;
+color: white;
+padding: 8px; 
+width: 100px;
+border: none;
+border-radius: 5px;   
+}
+
+.container button:hover
+{
+background-color: darkblue;    
+}
+
+.submit
+{
+background-color: red;
+color: white;
+width: 100px;
+height: 30px;
+border: none;
+border-radius: 5px;    
+}
+
+.submit:hover
+{
+background-color: darkblue;    
+}
+
+.bookback img
+{
+width: 1360px;
+height: 750px;    
+}
+
+.footer
+{  
+ 
+background-color: rgb(27, 27, 27); 
+width: 100%;   
+
+color: white;
+font-family: "Poppins", sans-serif;
+}
+
+.footer h3
+{
+display: inline-flex;    
+border-bottom: 2px solid red;    
+padding: 8px;
+margin: 40px;
+width: 230px;
+}
+
+.footer p
+{
+display: inline-flex; 
+margin-left: 60px;
+font-size: 14px;
+}
+
+.footer p:nth-child(2)
+{
+margin-left: 120px;    
+}
+
+.footer p:nth-child(3)
+{
+margin-left: 140px;    
+}
+
+.footer p:nth-child(4)
+{
+margin-left: 160px;    
+}
+
+.footer p:hover
+{
+    color: #8c2586;        
+} 
+
+.copyright
+{
+color: rgb(190, 174, 174);  
+background-color: rgb(48, 42, 42);  
+font-family: "Poppins", sans-serif;
+height: 60px;
+
+}
+
+.copyright p
+{
+margin-left: 20px;   
+letter-spacing: 1px;
+padding: 20px;
+}
+
+.social 
+{
+position: fixed;
+top: 30%;
+left: 96.5%;
+}
+
+.item img
+{    
+width: 45px;
+height: 45px;
+border-radius: 10px;
+}
+
